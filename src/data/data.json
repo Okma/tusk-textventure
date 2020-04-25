@@ -1,0 +1,437 @@
+{
+  "pages": [
+	{
+	  "title": "Tusk",
+	  "body": "Welcome Scavenger! In this forge your own path series, you play the role of “Kay Surlaw,” a young outlaw hoping to get her big score in the cosmos. As you make decisions, there will be various consequences to your actions. Do your best to use clues along with common sense to steer yourself towards positive outcomes. You can usually find subtle hints along the tale that guide you along the path of least resistance. If you make a regretful decision, try to learn from it and adjust your decision making in the future. \n\nTo make your decision, simply click on the diamond next to your choice. You begin this leg of your mission with 100% of your shield. Do not make any decision lightly! It must also be noted that you cannot recharge past 100% shield capacity.\nThough you may be able to recharge your shield through various means, if you fall to 0% shield or below, sadly your mission ends. If you wish and have the daring, you may then restart your mission at the last checkpoint. As a bonus objective you can keep track of the amount of credits you earn throughout the mission (so keep a pen and paper handy). These will benefit your ending score and rank, so do your best to salvage as much as possible whenever you can. With that advice, we wish you good luck Scavenger, and we hope you enjoy this cosmic saga.\n",
+	  "options": [
+		{
+		  "text": "Click here to begin",
+		  "target": 1
+		}
+	  ]
+	},
+	{
+	  "title": "Acknowledgements",
+	  "body": "Just one second, before you go flying off into space, please indulge me. This series would not be possible without the help of a hardworking team of friends: brothers and sisters. All these people pitched in with no incentive of any kind and stepped up to help make this what it is today. No monster would be quite as gruesome and no weapon quite as badass without this team. Each of them offers me a unique new perspective to hone the world of Tusk into a finely tuned reality. \nWhether it was Carl’s witty sarcasm that forced me to face countless flaws or Evan’s incisive perceptions that kept me practical, every member of the Tusk team was absolutely invaluable. I’d also like to give a special shout-out to Pierce and Spencer, who were always there to bear with me as I threw out an endless spew of ridiculous nonsense their way. Those two brilliant men helped me sift through the garbage and find the few gems that made this story truly great. \nAnd of course, behind every great man is a woman holding all the strings. This amazing puppeteer would be Tabitha. Without her invaluable support, I could not have finished even half of this epic tale. Last but most certainly not least is the mastermind of this whole endeavor, Sarah. All of these spectacular, patient people followed me every step of the way. \nThey stayed up long nights and early mornings editing my long-winded run-ons and turning them into concise masterpieces. So once again, thank you to the whole team for all your efforts and loyalty. I appreciate all your help more than I can express. I know great things are to come in the future. So hold on tight as Tusk takes over the world! And from all of us here on the S.P.E.C.K.T.S. team please enjoy your journey into deep space . . .\n",
+	  "options": [
+		{
+		  "text": "Click here to start your travels",
+		  "target": 2
+		}
+	  ]
+	},
+	{
+	  "title": "Deep Space",
+	  "body": "You stare longingly into the dark void of space, urging your ship onward. There’s always been something so alluring to you about traveling through the unknown. Suddenly a hologram pops up on your dashboard, it’s Flannigan again. \n“Kay! How many times do I have to warn you? Tusk is only going to bring you into unnecessary danger. There’s a reason it has such a bad rep.”\n\n“I didn’t know Jindorans were so superstitious. Never took you for a coward. Besides, as long as the loot is worth it, what’s it matter to you?”\n\n“Fair enough. Just saying, you’re one of my best earners, I’d hate to see something unfortunate befall you. You know as well as I do, humans tend not to last long in your line of work.”\n\n“Thanks for the warning Flannigan, but I think I can handle a dilapidated prison.”\n\n“Alright then, just don’t say I didn’t warn you. I hope I hear from you again.”\nThe hologram blinks out, leaving an eerie silence looming in your ship. You quickly hit the massive ring of wreckage surrounding the last known location of Tusk. Perhaps it would be wise to switch to manual control to navigate the debris, then again your ship’s A.I. has yet to steer you wrong.\n",
+	  "options": [
+		{
+		  "text": "No one can fly a ship better than her captain",
+		  "target": 3
+		},
+		{
+		  "text": "Better leave on the autopilot, can’t risk a collision",
+		  "target": 4
+		},
+		{
+		  "text": "Take Flannigan’s advice and turn back",
+		  "target": 5
+		}
+	  ]
+	},
+	{
+	  "title": "Manual Control",
+	  "body": "“Disengage autopilot Blazer,” you relay to your ship’s A.I. “Affirmative Captain, manual controls engaged.” Now that you’re in control of your ship once again, your worry seems to melt away. You feel right at home manning the helm. You weave your way almost effortlessly through the chaotic maze of asteroids. Quickly Tusk comes into view and you’re astounded at what you see. \nThey were not exaggerating when they said the wormhole tore this bastille apart. The sheer complexity of the structure overwhelms you with its labyrinthine construction. Navigating this might not be as easy as you originally believed, but the course was set. You glide towards what appears to be the safest landing zone, steering clear of the debris.  \nAs you approach your intended landing zone, Blazer blares, \"WARNING! High levels of electromagnetic disturbance detect . . .\" She gets cut off by static, as you realize it's already too late. Your ship plummets forward against your will as all your controls go dark.  You're attempting in vain to regain access to the ship's mainframe. You flip every switch and hastily smash the buttons on your console all to no avail. Maybe you should've expected something like this, due to Tusk's prolonged interaction with the wormhole. With your nav. seg. completely inaccessible there's nothing more you can do but watch. \nYour momentum propels you onward into a crash course within Tusk. You brace yourself for impact and squeeze your eyes shut involuntarily. You are jarred violently, but manage to remain in your captain's chair. You hear a short but violent metallic screeching sound.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 6
+		}
+	  ]
+	},
+	{
+	  "title": "Autopilot",
+	  "body": "“Proceed to coordinates, Blazer,” you order your ship’s A.I. \n“En route to your destination, Captain.” \n\nBlazer begins to navigate your ship through the field of debris as you head over to your mod-bench and begin tinkering with your phaser. While reassembling your sidearm, you reminisce about the many times it’s saved your life. On your last recon. mission, you got pinned down by a nasty gang of Khakahogs and . . . \n\n“WARNING! Collision imminent.”\n\nBefore you can respond, your ship is violently jolted by an asteroid! In a desperate attempt to regain control of your ship, you scramble towards the cockpit. Just as you’re about to reach the helm, you hear some cargo shift overhead. A shocking blow to the back of your head blacks out your vision.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 6
+		}
+	  ],
+	  "effects": {
+		"damage": 20
+	  }
+	},
+	{
+	  "title": "Turn Back",
+	  "body": "Perhaps Flannigan was right, maybe this mission was too risky. No one really knew how valuable the loot would be from a half-destroyed prison anyway. You turn your ship back towards Headquarters on Phobus and take one last look at all the floating debris. As you set the thrusters to full acceleration, you hear a loud clanging on top of your ship. \n“Blazer, pull up ship diagnostics” you command your A.I. “Affirmative, Captain.” You examine through the various digital charts as a scuttling sound proceeds towards the helm of your ship. “Foreign entity detected.” blares Blazer. “Identify!” You reply with haste. “Subject appears to be Aractoid in origin, possibly a Barug,” states Blazer. “Oh crap!” you scream. This is bad news. You decide the best course of action is to warp into hyper drive in an attempt to lose the hostile creature. \nJust as you’re approaching maximum overdrive, the Barug crashes onto the glass. It is a truly hideous creature with a gaping maw filled with rows of pointed teeth. This leads into a long, rutted worm-like thorax and ends with six segmented, spiny legs tapered into sharpened claws. You fumble over the ship’s defense controls, when the Aractoid unleashes a piercing, high-pitched screech and raises one of its disfigured claws. \nJust as you’re about to eliminate the threat, the creature’s claw crashes through the pressure glass! An overwhelming force hurtles you forward, careening you through the remainder of the glass shards. Attempting to fight the onset of panic, you struggle in vain to orient yourself. An agonizing sensation of a freezing burn tears through your body as you spin out of control into the void. An involuntary scream tries to escape you, but nothing comes out but an empty gasp. Before you can even fathom another thought, your vision blots out and you fade away.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 32
+		}
+	  ],
+	  "effects": {
+		"damage": 100
+	  }
+	},
+	{
+	  "title": "Crash Landing",
+	  "body": "You open your eyes as the blurry scene before you comes into focus. Even after it’s clear what has happened, you still need to blink a couple times in disbelief at your situation. “Blazer status report!” you bark habitually. Nothing replies, only a hollow silence emanates around you. Crap! This is not good. \nThe crash landing seems to have done some serious damage to your ship’s mass-driver engine. It would appear you’re in need of a replacement magno-core; you can only hope the remainder of the exterior remained mostly intact. On the bright side though, you made it. You actually managed to land on Tusk. Looks like you’re going to be stuck here for a while, so you might as well make the most of it. \nIncredibly, your ship seems mostly intact; therefore, you determine you can salvage pretty much everything you would need to repair your ship from inside the prison, perhaps in the officer’s quarters. So you gear up and ready yourself for disembarking. You don’t quite know what you will be dealing with on this journey. You pack your entire arsenal of weaponry and gadgets, preparing for anything. You don your helmet and phaser sidearm last as you shove open the exit ramp with your shoulder. \nYou examine the exterior of your ship to find only minor hull damage; luckily it’s nothing too serious. You determine that once you recover all the parts necessary to reboot your systems, you should be able to repair your ship’s engines back to flying condition. What’s really unfortunate is that it seems as if an electromagnetic pulse interfered with your suits schematic capabilities. So you’re going to have to begin navigating the prison on instinct alone. \nWithout Blazer to assist you, this is going to be a slow, lonely mission. But you better set off without haste, so which direction is wisest? Do you:\n",
+	  "options": [
+		{
+		  "text": "Find a way to climb up the chamber to your left",
+		  "target": 7
+		},
+		{
+		  "text": "Descend into the corridor to your right",
+		  "target": 8
+		}
+	  ]
+	},
+	{
+	  "title": "Climb into left chamber",
+	  "body": "As you reach the gap between you and the upper left chamber, you notice some hanging cables. Giving them a hard tug, you determine they could easily support your weight. You hoist yourself up the cord until you can reach the ledge and climb the rest of the way over. Though the chamber is dark, all appears to be clear. \nSome dim emergency lights flicker overhead and illuminate your path down a long compartment. You hear a grotesque slurping sound that instinctually drives you to clutch your sidearm. Deciding to play it safe you unholster your phaser and point it down the chamber. You quicken your pace in the hopes of catching the potential threat by surprise. What you find is regrettable, but you expected as much when you decided to journey to this prison. \nSome sort of fat, slimy, worm-looking creature, covered in short barbed lances appears to be devouring the head of a deceased jail guard. The beast looks like a hideous crossbreeding of a slug and a hedgehog. You quickly shoot the beast off of the guard. It lets out a blood-curdling squeal that forces you to cringe, as it writhes on the floor. You shoot it again and crush what's left of the sticky mass under your boot to be sure that it won't get up again. \nYou search the remainder of the guard’s belongings and are delighted to find a nav seg containing maps of Tusk as well as a small light sphere you attach to your helmet. The best part is he happened to have <u>5,000 credits</u> on him.",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 10
+		}
+	  ],
+	  "effects": {
+		"credits": 5000
+	  }
+	},
+	{
+	  "title": "Descend into right corridor",
+	  "body": "You amble down towards the drop that leads to the dim corridor to your right. The only things illuminating the hall are flickering emergency lights. As far as you can see, it appears clear. The short leap across the gap of rubble proves to be no trouble for you, given your agile prowess. You continue down the passageway, hoping to find some semblance of a navigation system. There has to be some sort of guidance system, or maps you can access nearby. \nYou look down to notice a rudimentary arrow system engraved in the metal floor. There must’ve been a color-coordinated system, but since all power sources were cut off temporarily, the etchings remained transparent. You decide to follow along the straight groove leading further down the aisle. You quickly hit a section of hallway with no light source. In the growing darkness you can hear a sort of sickly squishing sound, like an endless, disgusting chewing. \nYou consider turning back as a red light flashes above you.  It temporarily illuminates around the next corner. While you squint to regain your vision after the sudden brightness, you notice two things: the possible source of the sound and a seemingly unbroken directory console. Do you:\n",
+	  "options": [
+		{
+		  "text": "Run towards the console",
+		  "target": 9
+		},
+		{
+		  "text": "Double back towards the left chamber",
+		  "target": 7
+		}
+	  ]
+	},
+	{
+	  "title": "Run towards the console",
+	  "body": "You make haste towards the directory console, hoping that it truly remained undamaged. The gelatinous sound grows as you near the wall screen. Though you suspected some sort of parasitic creatures to be looming around this forsaken cesspit, you’ve never seen anything quite like these. \nYou peek around the corner to witness an entire nest of fat, slimy, worm-looking creatures, covered in short barbed lances. They look like a hideous combination of a slug and a hedgehog. You do not feel like facing off against that many with just your phaser, so you quickly return your focus to the directory. Though you are somewhat unfamiliar with Tusk’s tech, you manage to pry the nav. seg. out of the console with relative ease. Once your suit regains functionality, you should be able to use this to map out the prison easily. \nWhile you were distracted with disassembling the directory, a pack of the slug creatures managed to sneak up on you. Knowing you can’t face them alone, you pocket the seg. and make a break for it back down your original path. It’s a good thing they aren’t too fast, but your hesitation cost you this time. Just as you’re getting out of the creature’s sight, one of them hisses and a green, oozing projectile shoots from its mouth and connects with your ankle. The ooze quickly burns through a portion of your armor before dissipating.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 10
+		}
+	  ],
+	  "effects": {
+		"damage": 10
+	  }
+	},
+	{
+	  "title": "Med. Bay",
+	  "body": "Following your dim light you continue down the hallway until you reach a set of double doors marked with green crosses. This must be some sort of clinical facility, you surmise. It’s as good a place as any to search for loot and salvage to repair your ship. A lot of the serums they carry in these types of labs could go for quite a bit back on Phobus. At least Flannigan always seemed to be able to find the right buyer. \nYou decide to grab what you can and quickly move on. You pry open the doors and squeeze your way into the med bay. There doesn’t appear to be any imminent danger at the moment, so you let your guard down slightly. To one side you notice a glass cabinet that’s ajar; perhaps it could contain some valuable serums. To the other side there seems to be a few digital charts piled together on top of a desk. You don’t know how much value lies in outdated medical records. Will you:\n",
+	  "options": [
+		{
+		  "text": "Loot the med. cabinet",
+		  "target": 11
+		},
+		{
+		  "text": "Attempt to sift through the patient charts",
+		  "target": 12
+		}
+	  ]
+	},
+	{
+	  "title": "Loot the med. cabinet",
+	  "body": "Obviously the greatest value lies in the drugs here. Who cares about a bunch of inmates’ files, especially when they’re all presumed dead from the accident. You flip open the cabinets to find a surprising amount of intact syringes. Though some of the names are unfamiliar to you, you decide to grab as many as possible and store them in one of your suit’s numerous compartments. These would easily go for at least 15,000 credits back at Scav HQ.\nYou scan the rest of the room to find it filled mostly with broken equipment. You determine that nothing else of value remains. It is time to move on, but where should you go? If only your suit would come back online. “Stupid piece of junk,” you think to yourself and you punch the side of your helmet. All of a sudden your HUD flares back to life on your visor screen, and Blazer startles you, “How may I assist you captain?” \nYou’ve never been so happy to hear her robotic droning! “Install this nav. seg.” You insert the chip into the back of your helmet and a floor plan depicting this room’s blueprint immediately centers in your vision. It is so nice to be back in business! To get a more in depth look at your surroundings, you project the map holographically from your helmet. While perusing the blueprint in the center of the room, you notice the med bay has a back door, which leads directly to the Officers’ Quarters. You can’t think of a better chance of finding the salvage you need to repair your ship’s mass-driver engine core than there.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 13
+		}
+	  ],
+	  "effects": {
+		"credits": 15000
+	  }
+	},
+	{
+	  "title": "Inspect Patient Charts",
+	  "body": "Peaked by curiosity over anything else, you decide to search the files. Remembering your main objective on this mission was to obtain loot and salvage, you decide to make it quick. You step over to the desk and peruse the many tablets. Sifting through one after another, you notice that most of the charts are defective or broken. Hopelessly tapping away at the last couple of tablets, you’re surprised by one flickering to life. \nYou find an astounding amount of information within the small chart. It has patient records, medical histories, and prescribed medications on almost all the patients that came through the prison. Though you doubted this chart would have any real value back on Phobus, you sift deeper into the records and notice something quite interesting. A morbid curiosity drives you onward, overwhelming your initial distaste at the information before you. \nThese charts graphically detail experiments done on certain patients within the facility. You read through the first few case studies with a growing horror. Even though these types of activities disturb you to your core, you decide that there had to be a buyer out there who would be willing to pay at least 5,000 credits for something like this. Perhaps Flannigan could pawn one off to a med. tech back on Phobus. There were certainly some controversial procedures described on these charts, to say the least.\nAs you’re about to pocket the chart, a name from the screen suddenly catches your attention. You almost drop the tablet in disbelief. Ryker. This had to be some kind of mistake! You scan and rescan the page looking for more, for an explanation but there is little information to be found. You put the chart away as your head spins nearly out of control. How could your own brother possibly be involved in a place like this? Standing here, seeing the catastrophic repercussions of the wormhole . . . you don’t want to think about it anymore. This had to be some coincidence, it could not be true!\nYou scan the rest of the room to find it filled mostly with broken equipment. You determine that nothing else of value remains. It is time to move on, but where should you go? If only your suit would come back online. “Stupid piece of junk,” you think to yourself and you punch the side of your helmet. \nAn unpleasant memory abruptly interrupts your thoughts. You can’t seem to shake it, despite your attempts. You did not want to leave Ryker outside that orphanage, but what choice did you have? You were only 14 and there was no way you could take care of him by yourself! \nBesides if he stayed with you, you knew deep down that he’d end up no better off than you were now. Scavenging for a living was not much of a life – not a respectable one at least. You wanted better for him: better than you and definitely better than your parents. It was your only option. Yet you can’t help but feel the regret well up inside you as you remember seeing his name on that stupid chart. Had it really been 10 years already?\nAll of a sudden your HUD flares back to life on your visor screen, and Blazer startles you, “How may I assist you captain?” \nYou’ve never been so happy to hear her robotic droning! “Install this nav. seg.” You insert the chip into the back of your helmet and a floor plan depicting this room’s blueprint immediately centers in your vision. It is so nice to be back in business! To get a more in depth look at your surroundings, you project the map holographically from your helmet. While examining the blueprint in the center of the room, you notice the med bay has a back door, which leads directly to the Officers’ Quarters. You can’t think of a better chance of finding the salvage you need to repair your ship’s mass-driver engine core than there.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 13
+		}
+	  ],
+	  "effects": {
+		"credits": 5000
+	  }
+	},
+	{
+	  "title": "Entryway",
+	  "body": "As you approach the doorway leading to the Officers’ Quarters, you notice a large examination table blocking your entry. You squat down with your back against it and attempt to push backwards. Though the table doesn’t seem to give any ground at first, you eventually dislodge it from its position with great effort. Once that obstacle is taken out of the equation, your way into the officers’ quarters is clear –if you could just find a way through the door. \nYou examine the pad and scanner adjacent to the entry. It appears as if the only way to open the hatch is through a retinal scanner along with a handprint analyzer. “Blazer, how about a hand here?” You ask your A.I. “Investigating security parameters,” she replies. \n“What’re my options here?” You pester. “There appear to be two logical courses of action, Captain. We can either attempt to deactivate the system entirely or we could endeavor to modify the internal database to accept your information.”\n",
+	  "options": [
+		{
+		  "text": "Deactivate the panels",
+		  "target": 14
+		},
+		{
+		  "text": "Revise the internal database",
+		  "target": 15
+		}
+	  ]
+	},
+	{
+	  "title": "Deactivate the panels",
+	  "body": "This place is really starting to give you the creeps, so you decide the best course of action should be the quickest. Blazer should be able to shut off the security measures, if not there is always the brute force option in your back pocket. You decide to leave this to the pro to avoid any potential mistakes in human error. You remove Blazer’s chip from the back of your helmet and insert it into the security system. “Analyzing. Attempting to shut down safety measures.” A couple more minutes pass as Blazer works on cracking the system. \nJust as it appears she is about to breach the firewall, the screen flares to life with flashing warning lights. “ Intrusion detected. Failsafe initiated. Abort!” You rip Blazer’s chip out of the panel and shove it back into your helmet. It appears as if you were slightly too late. Whatever failsafe was in place against intruders seems to have caused some form of corruption in Blazer. As her internal defense protocol is in process of rebooting a sudden jolt of electricity surges through your suit. It stings harshly, but the pain is only temporary. \nThat’s enough, you think as you unholster your phaser. You point your firearm at the center of the security console and fire. Glass shatters as the monitors finally blink out of existence. You sigh in exasperation when nothing happens. Just as you’re turning around, the door parts in the middle slightly. You manage to pry them open just enough to pass through into the officer’s quarters.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 16
+		}
+	  ],
+	  "effects": {
+		"damage": 15
+	  }
+	},
+	{
+	  "title": "Revise the internal database",
+	  "body": "You’ve learned from experience that brute force is not always the wisest option. Sometimes a bit of finesse is all the more complex missions require for success. “Blazer, time to do your thing.” You remove her chip from the back of your helmet and insert it into the security panel. \n“Analyzing. Attempting to revise database.” A minute quickly passes as Blazer works vigorously. “User input accepted. Security systems have been successfully breached.” You remove Blazer’s chip from the panel. You confidently place your hand on the scanner and raise your visor to receive the retinal scan. Your credentials are swiftly accepted as if you were a Tusk officer, and the doorway promptly opens. There’s no turning back now. You enter the Officers’ Quarters.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 16
+		}
+	  ]
+	},
+	{
+	  "title": "Officers’ Quarters",
+	  "body": "It is dark, even by the light of your helmet. You can only make out the faint outlines of basic structures in the darkness. From the amount of cigarette cartons lying around here, you could likely find a lodestar to light your way, but you need to formulate a plan quickly. Now is not the time to underestimate the danger of this place. As if it hears your thoughts, a nearby circuit breaker spits out electrical sparks. From what you can tell from your initial research on Tusk, the commanding officers’ weapons of choice were coil rifles. \nThey are widely considered inhumane tools of destruction on Phobus and they are not exactly easy to acquire. The important part is that they are powered by a very specific type of magno-core: a smaller version of the same power source used by your mass-driver engine.  If you could get your hands on one of those rifles, you’d be one step closer towards getting off this forsaken prison. \nMost of this room seems to be in shambles, anything of note is either damaged or in ruins. Numerous glass bottles litter the floor, most likely alcohol. Two fairly large storage containers seem to be somewhat intact. There is a footlocker to the right with a broken keypad on the front. To the left there is a tall filing cabinet, the doors loose on their hinges. An ominous dissonance emanates from the walls. Something is coming. You need to decide fast.\n",
+	  "options": [
+		{
+		  "text": "Investigate the footlocker",
+		  "target": 17
+		},
+		{
+		  "text": "Investigate the file cabinet",
+		  "target": 18
+		}
+	  ]
+	},
+	{
+	  "title": "Footlocker",
+	  "body": "You sidle towards the footlocker with care; the sound grows louder as you approach. You remove the keypad, noticing the sound appears to be organic. Keeping one hand on your holster, you fling open the lid to the footlocker. Horrified, you stumble backwards several paces, keeping the locker in sight. Lying inside the chest is the severed corpse of a Tusk officer. Your mind races as you observe the body’s chest rising and falling –he is still breathing!\nBlazer cuts in, “Investigating life form. Tusk officer identified: Ross Santorum, age 36. Foreign parasite unknown, no documentation exists. It appears as if the symbiote relies on the host for breeding conditions.” You are repulsed, yet interested nonetheless. This unknown parasite seems to have formed a sick symbiotic relationship with its host, both keeping the other alive. \nRoss’ body has been grotesquely transformed into a twisted and bulging mass, covered in oozing bulbs of pus. The only thing you can think to do is put this man, or whatever is left of him, out of his misery. But could there be a reason to spare him? Is there possibly some form of life in there? Maybe if you could reach him, you could possibly find some useful information.\n",
+	  "options": [
+		{
+		  "text": "Investigate Further",
+		  "target": 19
+		},
+		{
+		  "text": "Mercy Kill",
+		  "target": 20
+		}
+	  ]
+	},
+	{
+	  "title": "File Cabinet",
+	  "body": "You sidle towards the cabinet carefully; the ominous sound growing louder as you approach. You inspect the loose doors, noticing the sound appears to be organic. Keeping one hand on your holster, you fling open the double doors to the case. Horrified, you stumble backwards several paces, keeping the locker in sight. Lying inside the chest is the severed corpse of a Tusk officer. Your mind races as you observe the body’s chest rising and falling –he was still breathing!\nBlazer cuts in, “Investigating life form. Tusk officer identified: Ross Santorum, age 36. Foreign parasite unknown, no documentation exists. It appears as if the symbiote relies on the host for breeding conditions.” You were repulsed, yet interested nonetheless. Some form of disgusting corruption has overtaken much of the remains of his body. This unknown parasite seems to have formed a sick symbiotic relationship with its host, both keeping the other alive.\nRoss’ body had been grotesquely transformed into a twisted and bulging mass, covered in oozing bulbs of pus. The only thing you can think to do is put this man, or what was left of him, out of his misery. But could there be a reason to spare him? Is there possibly some form of life in there? If you could reach that, you could possibly find some useful information.\n",
+	  "options": [
+		{
+		  "text": "Investigate Further",
+		  "target": 19
+		},
+		{
+		  "text": "Mercy Kill",
+		  "target": 20
+		}
+	  ]
+	},
+	{
+	  "title": "Investigate Further",
+	  "body": "Though you’ve often had to kill in your line of work, it never sits well with you – especially when your victim is also human. Sometimes there is a better option. Something makes you feel uneasy about killing it in cold blood when it doesn’t seem to pose any immediate threat. \n“Blazer, is it possible to remove this parasite somehow?” As Blazer processes your request, you hear a strange sound. The only way you can describe the sound is like loud stomping through mud. It builds up so quickly, echoing inside the room until it reverberates throughout your skull. \nAn explosion ripples directly in front of you with a violent burst, temporarily blinding and almost deafening you. You are thrown uncontrollably across the floor and you crash into a cabinet nearby. As you regain your senses, you hear the dulled sound of glass bottles clanking next to you. You realize that the cabinet has been forced open by the collision.\nYou quickly about face as you regain your footing. A revolting monster sprawls out of the storage unit. Its gaze locks straight onto you as it shambles towards you.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 21
+		}
+	  ],
+	  "effects": {
+		"damage": 20
+	  }
+	},
+	{
+	  "title": "Mercy Kill",
+	  "body": "Though this type of parasitic creature is indeed foreign to you, it is painfully obvious that it’s malicious in nature. Something had to have caused the growing corruption and bifurcation of this officer. Seeing as you had no one else to blame, killing this disgusting organism seems like the best possible redemption in your eyes. \nThis aspect of your profession never really appealed to you, but sometimes the situation just calls for it. There’s no going back now. You grab a plasmid off your belt and toss it into the crate while retreating a few steps. Once you’re at a safe distance you pull out your detonator. Just as you’re about to press the button and blow the charge, a strange sound halts you. \nThe only way you can describe the sound is like loud stomping through mud. It builds up so quickly, echoing inside the room until it reverberates throughout your skull. You drop the detonator and clutch at the sides of your helmet in a feeble attempt to dull the deafening noise.  An explosion ripples from in front of you with a violent, blinding burst. \nWhatever the hell that was, it sure had nothing to do with your plasmids. Before you have another moment to recover, the source of the sound emerges. A revolting monster sprawls out of the storage unit. Its gaze locks straight onto you as it shambles outward towards your location. You snatch the detonator off the floor and slam on the button repeatedly. Nothing. The explosion seemed to have nullified your charge.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 21
+		}
+	  ]
+	},
+	{
+	  "title": "Juggernaut",
+	  "body": "Having traveled from one corner of the galaxy to the other, you have always considered yourself quite cultured. None of the foreign creatures you’ve ever encountered could’ve prepared you for this. The ugliest Khakahog didn’t even compare to this level of repulsiveness. Rising before you was a disproportionately tall, writhing mass of fibrous, decaying muscle and flesh. You determine that your only advantage in this situation is its cumbersome size and figure. You can easily outrun this creature. As it lumbers out of the remains of Ross' corpse, you take the opportunity to examine the biomass.\nIt resembles a humanoid in shape, though it is severely disfigured. Instead of arms, two whip-like tendrils tapered into jagged claws drag along the floor behind the creature. Its legs are replaced by bowed, knotted meat-sacks, supported by what looks like sinuous hooves. These appear to be composed of balled up muscle strands. Worst of all is the creature's face – a gelatinous, amorphic orb with several clawed appendages protruding forth. Though drooping from a lack of energy, they snap furiously at the air, in search of food. You've seen this behavior before -this beast enjoys killing. The thrill of the hunt. This Juggernaut needs to go down.\nYou realize the monstrosity is regaining strength -you have to act quickly. As you unholster your phaser, you consider striking first before it can retaliate. You hesitate, thinking it might be better to counterattack and go on the defensive.\n",
+	  "options": [
+		{
+		  "text": "Try your luck with a phaser blast",
+		  "target": 22
+		},
+		{
+		  "text": "Wait to determine the beast’s strategy",
+		  "target": 23
+		}
+	  ]
+	},
+	{
+	  "title": "Act First",
+	  "body": "There is no time for calculations or hesitation. You aim down your sights and fire two phaser blasts directly into the creature’s chest. The Juggernaut appears to falter briefly, filling you with confidence. The Juggernaut quickly recovers, unfazed. Crap! “The creature seems to be completely unaffected by your onslaught,” informs Blazer. What should I do now? “Blazer! Strategy?”\n“Success improbable. No weaknesses detected. Recommend immediate retreat. Exit located, 3.7 meters north of your location. Evasive maneuvers necessary.”\nThere isn’t a single second more to wait. The juggernaut is nearly upon you. Should you take Blazer’s advice and attempt to flee to the exit directly behind the monster, or possibly dodge the beast’s attack and parry with your own counter-offensive?\n",
+	  "options": [
+		{
+		  "text": "Attempt to flee towards exit behind the Juggernaut",
+		  "target": 24
+		},
+		{
+		  "text": "Dodge the attack and parry",
+		  "target": 25
+		}
+	  ]
+	},
+	{
+	  "title": "React",
+	  "body": "You hold your ground as the Juggernaut squares off against your position. Recalling its slow nature, you bend your knees, ready to spring to the side. Its vine-like limbs lash out at you with an unexpected speed. You somersault to the left as quickly as possible and manage to avoid getting utterly trapped. As you land, the edge of the Juggernaut’s clawed tendril catches you on the back of your thigh.\nFaster than you can believe, the beast is striking out at you again with renewed vigor. This time you were ready. As you’re crouched down, you reach and unsheathe your voltaic dagger from your ankle scabbard. Immediately as its arm is in range, you activate the dagger’s electro-current. As it hums to life, you slash upwards in an arcing motion. The tendril recoils as a fragment of its claw tumbles to the ground. The Juggernaut quickly recovers, unfazed. Crap! “The creature seems to be completely unaffected by your onslaught,” informs Blazer. What should I do now? “Blazer! Strategy?”\n\n“Success improbably. No weaknesses detected. Recommend immediate retreat. Exit located, 3.7 meters north of your location. Evasive maneuvers necessary.”\nThere wasn’t a single second more to wait. The juggernaut was nearly upon you. Should you take Blazer’s advice and attempt to flee to the exit directly behind the monster or possibly dodge the beast’s attack and parry with your own counter-offensive?\n",
+	  "options": [
+		{
+		  "text": "Attempt to flee towards exit behind the Juggernaut",
+		  "target": 24
+		},
+		{
+		  "text": "Dodge the attack and parry",
+		  "target": 26
+		}
+	  ],
+	  "effects": {
+		"damage": 10
+	  }
+	},
+	{
+	  "title": "Flee Around Enemy",
+	  "body": "You’ve made it this far in your career by picking your fights wisely. Sometimes the wisest course of action is to just get out and live to fight another day. You know you are vastly unprepared for this fight, so you have to find a way out – now! The Juggernaut whips its tendrils at your head, so you dive to the floor. Though it doesn’t seem to have any weaknesses you can detect; it is awkward and slow. As you regain your footing, you look up just in time to see the behemoth’s colossal hoofed leg bounding downward at you. \nThere’s nothing else you can do besides throw yourself into a sideways roll. You crash into a dilapidated desk while glancing back at the beast. Luckily, the Juggernaut’s momentum causes him to stumble forward, leaving a brief opening to run towards the exit. “Exit 2.4 meters away,” reports Blazer. Now is your only shot. You dash towards the doorway in a mad rush. As you near the clearing, you hear a bellowing screech resound directly behind you. Against your better judgment, you hesitate for one split second to peek over your shoulder. \nYou manage to spot the coiled tendril lashing out at you with alarming speed. You realize your one brief moment of doubt costs you dearly this time, as you fail to leap away. The Juggernaut’s limb twists around your ankle with an inconceivable strength, slamming you to the floor. You struggle desperately at your bonds as it drags you around like a ragdoll. Next thing you know, you’re flying through the air in a direct path towards the Juggernaut’s face. Its clawed protrusions open and shut hungrily, awaiting their helpless prey. \nYou will not be taken down this easily, especially not to this ugly beast. You reach across with your left hand and unsheathe your voltaic dagger. You immediately activate the electro-current and it hums to life. You slash with all your strength at the coils around your ankle, which instantly loosen and tumble downward. It squeals with rage, flailing around its oozing stump arm. \nWhat would likely have been a fatal crash is instead the key to your salvation. As you careen over the Juggernaut’s head, you spin out of control, which causes a few of your plasmids to fall out of your belt. You manage to extend your dagger into the wall to slow your descent. It tears through the metal like butter yet you’re slowed enough to land with minimal damage. As you fumble for your detonator, the Juggernaut recovers and stabs at you with explosive force. You manage to grab the detonator and smash the button but due to your injured ankle, you’re too slow to avoid his gouging spear. “Critical damage taken,” blares Blazer as the Juggernaut’s lance stabs through your shoulder with a piercing thrust. Luckily it quickly retracts, as your plasmids finally ignite.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 25
+		}
+	  ],
+	  "effects": {
+		"damage": 55
+	  }
+	},
+	{
+	  "title": "Flee Around Enemy",
+	  "body": "Nothing can compare to the gurgling screech that bellows from the creature now. Though you fear your eardrums might burst, you think this banshee cry might be a good sign. The Juggernaut stumbles, writhing as globs of its face melt off towards the floor. “It appears the entity has a weakness to heat –due to its preference for breeding in a dark, cold environment,” confirms Blazer. \nThat gives you an idea. Fire! You would need lots and lots of fire. Dammit! Flannigan was right; incendiary rounds would’ve been useful. How could you start a fire in this office? You struggle to recall anything you could use around you to help your cause:\n",
+	  "options": [
+		{
+		  "text": "Search for a lodestar in the nearby desk",
+		  "target": 27
+		},
+		{
+		  "text": "Utilize the flammable substances in the glass bottles",
+		  "target": 28
+		},
+		{
+		  "text": "Attempt to ignite the faulty circuit breaker",
+		  "target": 29
+		}
+	  ]
+	},
+	{
+	  "title": "Dodge & Parry",
+	  "body": "Improbable as victory might be, running is just not your style. Every life form you’ve faced has some kind of weakness. This won’t be the exception! You dive to the floor, narrowly dodging a swipe of the Juggernaut’s tendril. You roll to the right and spring back onto your feet. No sense in holding anything back now. “Blazer I can’t run away from this one, any last advice?” \n\t“I recommend aiming for the head to increase the likelihood of success.” “Thank you Blazer . . .” The Juggernaut raised its colossal hoofed leg and pounded it down into the ground. The massive force of the blow cracked the foundation and almost caused you to lose balance. This beast isn’t going to entrap you that easily! You pull out the remaining few plasma charges from the back of your belt, activate them, and launch them towards the behemoth’s face. Clearly vision isn’t its strong suit, as all of your explosives find their mark. \nBefore you can retrieve your detonator, the beast bellows and sweeps at your legs with both tendrils. Working off pure instinct, you vault yourself into the air, leaning back hard and tucking your knees as you peak. You managed to dodge another devastating blow as you alight to the ground in a poised stance. The Juggernaut’s momentum causes him to sway backwards unsteadily. He is still seemingly unaware of the plasmids on his face, so you grab your detonator and press the button firmly.\nYou thought the sound of the explosion before was piercing. It was nothing compared to the gurgling screech that bellowed from the creature now. Though you feared your eardrums might burst, you thought this banshee cry might be a good sign. The Juggernaut stumbled, writhing as globs of its face melted off towards the floor. “It would appear the entity has a weakness to heat –due to its preference for breeding in a dark, cold environment,” confirms Blazer. \nThat gave you an idea. Fire! You would need lots and lots of fire. Damnit! Flannigan was right; incendiary rounds would’ve been useful. How could you start a fire in this office? You struggle to recall anything you could use around you to help your cause. Will you:\n",
+	  "options": [
+		{
+		  "text": "Search for a lodestar in the nearby desk",
+		  "target": 27
+		},
+		{
+		  "text": "Utilize the flammable substances in the glass bottles",
+		  "target": 28
+		},
+		{
+		  "text": "Attempt to ignite the faulty circuit breaker",
+		  "target": 29
+		}
+	  ]
+	},
+	{
+	  "title": "Search for a Lodestar",
+	  "body": "Suddenly you recall all the cigarette cartons littering the office’s floor. There has to be a lodestar to go with them, but where? All you would need once you found it is to . . . Your thoughts are cut short by a terrifying shriek from the Juggernaut. Its face was oozing out disgusting globules of viridian pus. It did not look happy. You did not have much time. \nYou spot a small pile of cartons on a desk near the center of the room. If you were going to find a lodestar anywhere, your best shot is there. The Juggernaut rushes at you headlong. Whatever damage you managed to cause earlier makes dodging his attack easier. You spin deftly out of the way. The beast swings around to charge you again, taking care to aim this time. You use this to your advantage, positioning yourself away from the desk. \nThe behemoth lowers its head and charges you at a breakneck speed. You hold your ground, waiting till the last possible second. Just as it’s about to collide with you, you hurl yourself into a sideways dive roll. Exactly as you hoped, its momentum carries it far past your position and straight into the back wall. Luckily, the collision seems to have left it temporarily dazed. Now was your one shot.\nAs the Juggernaut struggles to regain its standing, you dash to the desk. You check to see it slowly regaining its senses, so you frantically ransack the drawers. There’s no sign of a lodestar anywhere! How is this possible? You were so sure you’d be able to find one and light this beast back to hell. A shuddering squeal snaps you back into your grim reality. \nYou look down the sights of your phaser and fire directly at the decaying remains of the Juggernaut’s face. At the very least, you hope to buy yourself time to continue searching. Instead of the usual sound you’d expect from your sidearm, you hear a low, mechanical whirring. You were out of energy cells and there is not enough time to reload!\nAs the Juggernaut readies itself for another attack, you withdraw your voltaic dagger. If you were going to go down, it would be fighting. You grimace as its electro-current hums to life, hopefully it wouldn’t fail you. The Juggernaut locks its gaze onto you. You meet its stare fearlessly. You launch yourself on a direct collision course with your target. The Juggernaut decides to play chicken with you. It cackles in glee as he rushes right back at you. \nYou pull back your dagger, readying yourself for the final confrontation. You prepare to back down and strike at the last possible instant.We’ll see how powerful this Juggernaut is without a head! What you could not expect was that it would back down first. Its hesitation catches you by surprise. You’ve underestimated the Juggernaut for the last time.\nYou react as quickly as humanly possible, but it isn’t enough. This Juggernaut is more than human and more than enough to outmatch you. Your uncertainty has left you vulnerable and the beast snaps its tendrils around your wrists. You resist with all your might but your strength is feeble in comparison to this creature. The beast wrenches your arms apart, while lifting you into the air. Try as you might, you cannot even bend your wrist enough to pose a threat with your dagger. \nThe Juggernaut happily bends your wrist back until your weapon falls helplessly to the floor. You scream, swinging your legs forward in a last ditch effort to free yourself. Your legs connect with the beast, but that only manages to get you stuck further in its grasp. The bleak truth sets in as you feel your wrists and shoulders being brutally yanked from their sockets. An indescribable agony tears through your torso. Red blots cover your vision, as you go hoarse from your moaning. The last thing you hear is the gurgling growl of the Juggernaut’s hungry maw opening.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 32
+		}
+	  ],
+	  "effects": {
+		"damage": 100
+	  }
+	},
+	{
+	  "title": "Utilize Flammable Substances",
+	  "body": "Suddenly, you recall all the glass bottles littering the floor of the office. Hopefully the liquid they contain would do nicely! All you would need to do is . . . Your thoughts are cut short by a terrifying shriek from the Juggernaut. Its face was oozing out disgusting globules of viridian pus. It did not look happy. \nYou spot a few of the larger intact bottles near the left corner of the room. It looks like they have a decent amount of liquid left inside them too. You reach for your phaser but falter as the beast rushes at you headlong. Whatever damage you managed to cause earlier makes dodging his attack easier. You deftly spin out of the way. The Juggernaut swings around to charge you again, taking care to aim this time. You use this to your advantage, positioning yourself in front of the bottles. \nThe behemoth lowers his head and charges you at a breakneck speed. You hold your ground, waiting till the last possible second. Just as he’s about to collide with you, you hurl yourself into a dive roll to the left. Exactly as you hoped, his momentum carries him far past your position and straight into the wall.  Luckily, the collision seems to have left him dazed Now was your one shot. \nIt crashed directly into the small pile of bottles, which were cracking under its weight. You look down your phaser’s sights and fire directly towards the growing pool of liquid. Instead of the usual sound you’d expect from your sidearm, you hear a low, mechanical whirring. You were out of energy cells! There is not enough time to reload. It’s now or never! \nAs the Juggernaut regains his senses, you withdraw your voltaic dagger. You smirk as its electro-current hums to life. This could never let you down.  The Juggernaut locks its gaze onto you. You glance at the liquid dripping off his legs. You hurl the dagger, spinning through the air, on a direct collision course to your target. The Juggernaut swerves out of the way of your projectile, cackling in glee. Good thing he wasn’t the target! In one last ditch effort, it flails a tendril at your legs. You were so concentrated on making your shot that you temporarily lost focus. Its attack catches you by surprise. \nThe beast realizes too late what is happening as the dagger wedges itself into the soaked floor. Its arm wraps itself around your legs with an unbreakable strength, as the pool of liquid is ignited. Your head crashes to the floor as the Juggernaut begins to pull. The fire spreads rapidly, burning up the pool you are being helplessly dragged toward. In seconds, the Juggernaut is engulfed in flames. It shrilly wails, crumpling to the ground in a massive heap. Its grip loosens quickly, allowing you time to squirm away but not before your foot meets the fire. \nYou roll to the side, stamping out the blaze before it can spread any further. The silence startles you as you look back up. That’s when you finally realize you have defeated the horrible Juggernaut. You stare wearily at the wall, watching the shadows dance from the flickering firelight off the beast’s burning body.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 30
+		}
+	  ],
+	  "effects": {
+		"damage": 25
+	  }
+	},
+	{
+	  "title": "Ignite Faulty Circuit Breaker",
+	  "body": "Suddenly you recall the fuse box you saw that was spitting out sparks when you entered this room. That could work perfectly! All you would need is . . . Your thoughts are cut short by a terrifying shriek from the Juggernaut. His face is oozing out disgusting globules of viridian pus. He does not look happy. \nYou spot the fuse box near the right corner of the room. You reach for your phaser but falter as the beast rushes at you headlong. Whatever damage you managed to cause earlier makes dodging his attack easier. You deftly spin out of the way. The Juggernaut swings around to charge at you again, taking care to aim this time. You use this to your advantage, positioning yourself in front of the circuit breaker. \nThe behemoth lowers its head and charges you at a breakneck speed. You hold your ground, waiting until the last possible second. Just as it’s about to collide with you, you hurl yourself into a dive roll to the right. Exactly as you hope, its momentum carries it far past your position and straight into the wall. Luckily, this collision seems to have left him dazed. Now is your one shot. \nHe is directly below the circuit breaker, which is still spewing out sparks. You look down your phaser’s sights and fire directly toward the box. Instead of the usual sound you’d expect from your sidearm, you hear a low, mechanical whirring. You are out of energy cells! There is not enough time to reload. It’s now or never! \nAs the Juggernaut regains its senses, you withdraw your voltaic dagger. You smirk as its electro-current hums to life. This never lets you down!  The Juggernaut locks its gaze onto you. You hurl the dagger on a direct collision course to your target. The Juggernaut swerves out of the way of your projectile, cackling in glee. Good thing it wasn’t the target! \nIt realizes too late what is happening as the dagger plunges into the circuit breaker’s core. The breaker hisses hazardously as beads of fire ignite from the core’s sparks and rain down on the monster. In seconds, the Juggernaut is engulfed in flames. It shrilly wails, crumpling to the ground in a massive heap. You have finally defeated the horrible Juggernaut. You stare wearily at the wall, watching the shadows dance from the flickering firelight off the beast’s burning body.\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 30
+		}
+	  ]
+	},
+	{
+	  "title": "Scavenging at its Best",
+	  "body": "As the fire finally sputters out, you take a long-awaited deep breath of relief. You knew the wormhole had brought on some form of corruption to the prison but you never guessed you’d be facing beasts like that. Flannigan tried to warn you about this but you were too stubborn to listen. You knew there had to be loot worth scavenging in here, and you would prove it to him one way or another. You would not be caught off guard like that again though; you had to find a way to gear back up. \nYou decided that after all this effort, you might as well give the room one final sweep. Something draws you back towards officer Santorum’s shell of a corpse. You don’t know why, but for some reason you just had to recheck this desolate grave. You cringe as you look into the splattered remains of the man’s body. Just as you’re about to turn away, you spot something glimmering under all the gunk. \nYou reach into the slop and pull out a small, clear, hexagonal disk. “Blazer, you know what to do,” you declare. “Draining all connected accounts, please hold,” replies Blazer. After a few brief moments, Blazer’s voice echoes once again in your helmet, “30,000 credits have been added to your private holdings.”\n",
+	  "options": [
+		{
+		  "text": "Click here to proceed",
+		  "target": 31
+		}
+	  ],
+	  "effects": {
+		"credits": 30000
+	  }
+	},
+	{
+	  "title": "Congratulations!",
+	  "body": "You’ve made it. Though it was most likely a struggle, you have finally completed the first episode in the Tusk saga. Your outlook may appear bleak now, but there are still many more mysteries to uncover in this prison. Not to mention, if you want any hope of getting off this place –you really need to locate one of those magno-cores. Repairing your mass-driver engines and fighting your way off this place would be no easy feat. If you want to keep your head on your shoulders and make it out of here with a few spare credits in your pocket, you couldn’t be careless any longer. \nYou’ve learned from your mistakes and grown stronger from the experience. According to your schematics, there appears to be an armory nearby. If you could just make it there, you’d be able to recharge your shield. According to your research, you could possibly even find some extra energy cells, plasmids, and who knows what else in there.  \nAll that and more awaits you as your adventure continues. Thank you so much for participating in this first installment. From everyone here on the Tusk team, we hope to see you again soon.\n",
+	  "options": [
+		{
+		  "text": "Click here for ranking!",
+		  "target": -2
+		}
+	  ]
+	},
+	{
+	  "title": "Game Over",
+	  "body": "Sorry Scavenger, but it appears as if you have died. Fear not though, this isn’t the end. You can return to your mission shortly and hopefully make some wiser choices on your next run-through.\n \t\tWhile it's true the life of a Scav comes with glorious rewards, you must not underestimate the mysterious perils you face.  What's most important is properly gauging these perils and making the smart plays. Use the clues around you to make the most logical choices, but do not be afraid to explore and experiment a bit, for that may hold its own reward.\n \t\tWell what are you waiting for? It's time to get back in there and get back to kicking some alien butt. So go!",
+	  "options": [
+		{
+		  "text": "Click here to return to your last choice",
+		  "target": -1
+		}
+	  ]
+	}
+  ]
+}

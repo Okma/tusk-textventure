@@ -41,12 +41,14 @@ export default class Page extends React.Component {
     render() {
         return (
             <div className={'container'}>
-                <h1>{this.props.data['title']}</h1>
-                {this.props.data['body']}
-                {this.props.data['options'].map((option) =>
-                    <h3 key={option['text']}
-                        onClick={() => this.onOptionSelect(option['target'])}>♦ {option['text']}</h3>
-                )}
+                <h1 className={'title'}>{this.props.data['title']}</h1>
+                <p className={'body'}>{this.props.data['body']} </p>
+                <div className={'options'}>
+                    {this.props.data['options'].map((option) =>
+                        <p key={option['text']}
+                           onClick={() => this.onOptionSelect(option['target'])}>♦ {option['text']}</p>
+                    )}
+                </div>
             </div>
         );
     }

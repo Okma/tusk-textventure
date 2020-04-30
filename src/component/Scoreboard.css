@@ -1,0 +1,13 @@
+.score, .rank {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.rank > span {
+    font-style: italic;
+}

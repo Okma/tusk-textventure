@@ -1,8 +1,12 @@
 import React from 'react';
 import update from 'immutability-helper';
-import Page from "./Page";
 import data from './data/data';
+import Page from "./component/Page";
+import Scoreboard from "./component/Scoreboard";
 import './App.css';
+import shield from './img/shield.png';
+import credits from './img/credits.png';
+import death from './img/death.png';
 
 export default class App extends React.Component {
 
@@ -33,7 +37,7 @@ export default class App extends React.Component {
         // calculate credit score
         let credits = this.state.credits;
         let creditScores = {50000: 4000, 40000: 2000, 45000: 3000, 35000: 1000};
-        let cutoffs = creditScores.keys();
+        let cutoffs = Object.keys(creditScores);
         for (let i = 0; i < cutoffs.length; i++) {
             if (credits >= cutoffs[i]) {
                 score += creditScores[cutoffs[i]];
@@ -46,18 +50,19 @@ export default class App extends React.Component {
         let deathScores = [2000, -2000, -4000, -8000];
         for (let i = deathScores.length - 1; i >= 0; i--) {
             if (deaths >= i) {
-                score += deathScores[cutoffs[i]];
+                score += deathScores[i];
                 break;
             }
         }
 
         // calculate health score
         let health = this.state.health;
-        let healthScores = {76: 10000, 51: 8000, 26: 4000, 1: 2000};
-        cutoffs = healthScores.keys();
+        let healthScores = {1: 2000, 26: 4000, 51: 8000, 76: 10000};
+        cutoffs = Object.keys(healthScores).reverse();
         for (let i = 0; i < cutoffs.length; i++) {
-            if (health >= cutoffs[i]) {
-                score += healthScores[cutoffs[i]];
+            let healthCheck = cutoffs[i];
+            if (health >= healthCheck) {
+                score += healthScores[healthCheck];
                 break;
             }
         }
@@ -69,7 +74,7 @@ export default class App extends React.Component {
             6000: 'Burgling Pilot',
             1: 'Pick Pocketing Star Gazer'
         };
-        cutoffs = titles.keys();
+        cutoffs = Object.keys(titles).reverse();
         for (let i = 0; i < cutoffs.length; i++) {
             if (score >= cutoffs[i]) {
                 title = titles[cutoffs[i]];
@@ -85,13 +90,8 @@ export default class App extends React.Component {
     };
 
     onOptionSelect = (index) => {
-        if (index > 0) {
-            this.setState(update(this.state, {current_page: {$set: index}}));
-        } else if (index === -2) {
-            // win screen
-            let score = this.calculateScore();
-
-        } else if (index === -1) {
+        this.setState(update(this.state, {current_page: {$set: index}}));
+        if (index === -1) {
             // death
 
         }
@@ -100,17 +100,24 @@ export default class App extends React.Component {
     render() {
         return (
             <>
-                <div className={'container-fluid score'}>
-                    <p>Shield: {this.state.health}</p>
-                    <p>Credits: {this.state.credits}</p>
-                    <p>Deaths: {this.state.deaths}</p>
+                <div className={'container-fluid stats'}>
+                    <p>{this.state.health} <img height='30px' width='30px' src={shield}
+                                                alt={'shield'}/></p>
+                    <p>{this.state.credits} <img className={'credits-icon'} height='30px'
+                                                 width='22px' src={credits} alt={'credits'}/></p>
+                    <p>{this.state.deaths} <img height='30px' width='30px' src={death}
+                                                alt={'death'}/></p>
                 </div>
+                {this.state.current_page >= 0 &&
                 <Page
                     data={this.state.pages[this.state.current_page]}
                     onOptionSelect={this.onOptionSelect}
                     onCreditsChange={this.onCreditsChange}
                     onHealthChange={this.onHealthChange}
-                />
+                />}
+                {this.state.current_page === -2 &&
+                <Scoreboard data={this.calculateScore()}/>
+                }
             </>
         );
     }

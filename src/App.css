@@ -1,4 +1,10 @@
-.score {
+.stats {
     margin-top: 2%;
     text-align: right;
+    font-size: 18px;
+}
+
+.credits-icon {
+    margin-left: 6px;
+    margin-right: 2px;
 }

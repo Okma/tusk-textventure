@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb32044d-029c-4e3b-8f36-78db0549706b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Scoreboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Scoreboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/credits.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/death.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Overlay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Overlay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Scoreboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Scoreboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +115,29 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="302" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1588271322972" />
-    <state x="535" y="150" width="839" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588271009608">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588336415954">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="535" y="150" width="839" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1588271009608" />
+    <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1588336415954" />
+    <state x="535" y="150" width="839" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588336968336">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="535" y="150" width="839" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1588336968336" />
     <state x="605" y="260" width="710" height="586" key="find.popup" timestamp="1588262546271">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="605" y="260" width="710" height="586" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588262546271" />
+    <state x="609" y="269" width="700" height="530" key="recent.locations.popup" timestamp="1588336414559">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="609" y="269" width="700" height="530" key="recent.locations.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588336414559" />
+    <state x="624" y="252" width="672" height="677" key="run.anything.popup" timestamp="1588329892708">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588329892708" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588336338089">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588336338089" />
   </component>
 </project>

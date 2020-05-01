@@ -8,36 +8,6 @@ export default class Page extends React.Component {
         this.onOptionSelect = props.onOptionSelect;
     }
 
-    shouldComponentUpdate(nextProps, nextState, nextContext) {
-        if (nextProps.data['body'] !== this.props.data.body) {
-            this.hasUpdated = false;
-            return true;
-        } else if (!this.hasUpdated) {
-            return true;
-        }
-
-        return false
-    }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        let effects = this.props.data['effects'];
-        if (effects != null && !this.hasUpdated) {
-            // check for credit change
-            let deltaCredits = effects['credits'];
-            if (deltaCredits != null) {
-                this.props.onCreditsChange(deltaCredits);
-            }
-
-            // check for health change
-            let deltaHealth = effects['damage'];
-            if (deltaHealth != null) {
-                this.props.onHealthChange(deltaHealth);
-            }
-
-            this.hasUpdated = true;
-        }
-    }
-
     render() {
         return (
             <div className={'page container'}>

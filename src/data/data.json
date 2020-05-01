@@ -428,7 +428,7 @@
 	  "body": "Sorry Scavenger, but it appears as if you have died. Fear not though, this isn’t the end. You can return to your mission shortly and hopefully make some wiser choices on your next run-through.\n \t\tWhile it's true the life of a Scav comes with glorious rewards, you must not underestimate the mysterious perils you face.  What's most important is properly gauging these perils and making the smart plays. Use the clues around you to make the most logical choices, but do not be afraid to explore and experiment a bit, for that may hold its own reward.\n \t\tWell what are you waiting for? It's time to get back in there and get back to kicking some alien butt. So go!",
 	  "options": [
 		{
-		  "text": "Click here to return to your last choice",
+		  "text": "Click here to start over",
 		  "target": -1
 		}
 	  ]

@@ -25,19 +25,24 @@ export default class App extends React.Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         this.prevState = prevState;
+        // if dead, cache the last page the player saw
+        if (this.state.health <= 0 && this.returnOnDeathPage == null) {
+            this.returnOnDeathPage = prevState.current_page;
+        }
     }
 
     onOptionSelect = (index) => {
         // death
         if (index === -1) {
-            // TODO: currently goes back to start, but change to go back to prev choice
+            // on death, go back to previous choice
             this.setState(update(this.state,
                 {
-                    current_page: {$set: 2},
+                    current_page: {$set: this.returnOnDeathPage},
                     health: {$set: 100},
                     credits: {$set: 0}
                 }
             ));
+            this.returnOnDeathPage = null;
         }
         // scoreboard
         else if (index === -2) {

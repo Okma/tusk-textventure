@@ -11,3 +11,43 @@ h2 {
 .rank > span {
     font-style: italic;
 }
+
+.table th, .table td {
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.score-table {
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.score-table > * {
+    text-align: center;
+}
+
+.title-inactive {
+    color: dimgrey;
+}
+
+.title-active {
+    animation: rank-achieved 550ms ease-in-out infinite;
+}
+
+@keyframes rank-achieved {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.helper {
+    text-align: center;
+    font-size: 2em;
+}

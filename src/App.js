@@ -5,9 +5,9 @@ import Page from "./component/Page";
 import Scoreboard from "./component/Scoreboard";
 import Overlay from "./component/Overlay";
 import AnimatedNumber from 'react-animated-number';
-import shield from './img/shield.png';
-import credits from './img/credits.png';
-import death from './img/death.png';
+import shield_icon from './img/shield.png';
+import credits_icon from './img/credits.png';
+import death_icon from './img/death.png';
 import './App.css';
 
 export default class App extends React.Component {
@@ -24,11 +24,13 @@ export default class App extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        this.prevState = prevState;
         // if dead, cache the last page the player saw
-        if (this.state.health <= 0 && this.returnOnDeathPage == null) {
-            this.returnOnDeathPage = prevState.current_page;
+        if (this.state.health <= 0 && this.deathState == null) {
+            this.deathState = prevState;
         }
+
+        // move to top of page after each selection
+        window.scrollTo(0, 0);
     }
 
     onOptionSelect = (index) => {
@@ -37,12 +39,12 @@ export default class App extends React.Component {
             // on death, go back to previous choice
             this.setState(update(this.state,
                 {
-                    current_page: {$set: this.returnOnDeathPage},
-                    health: {$set: 100},
-                    credits: {$set: 0}
+                    current_page: {$set: this.deathState.current_page},
+                    health: {$set: this.deathState.health},
+                    credits: {$set: this.deathState.credits}
                 }
             ));
-            this.returnOnDeathPage = null;
+            this.deathState = null;
         }
         // scoreboard
         else if (index === -2) {
@@ -58,69 +60,56 @@ export default class App extends React.Component {
             this.setState(update(this.state, {
                 current_page: {$set: 32},
                 deaths: {$set: this.state.deaths + 1},
+                effect: {$set: null},
             }));
         } else {
+            // start constructing next state as appropriate
+            let nextState = {
+                current_page: {$set: index}
+            };
+
             let nextPageData = this.state.pages[index];
             let effects = nextPageData['effects'];
-            let newCredits = this.state.credits;
-            let newHealth = this.state.health;
             if (effects != null) {
                 // check for credit change
                 if (effects['credits'] != null) {
-                    newCredits += effects['credits'];
+                    nextState['credits'] = {$set: this.state.credits + effects['credits']};
+                    nextState['effect'] = {$set: 'credits'};
                 }
 
                 // check for health change
                 if (effects['damage'] != null) {
-                    newHealth -= effects['damage'];
+                    nextState["health"] = {$set: this.state.health - effects['damage']};
+                    nextState['effect'] = {$set: 'damage'};
                 }
             }
 
-            this.setState(update(this.state,
-                {
-                    current_page: {$set: index},
-                    health: {$set: newHealth},
-                    credits: {$set: newCredits}
-                }
-            ));
+            // assign next state
+            this.setState(update(this.state, nextState));
         }
     };
 
     render() {
+        const icons = [shield_icon, credits_icon, death_icon];
         return (
             <>
-                {this.prevState && <Overlay prev={this.prevState} current={this.state}/>}
+                <Overlay current={this.state}/>
                 <div className={'container-fluid stats'}>
-                    <AnimatedNumber
-                        style={{
-                            transition: '0.8s ease-out'
-                        }}
-                        stepPrecision={0}
-                        duration={this.prevState ? 1000 : 1}
-                        value={this.state.health}
-                    />
-                    <img height='30px' width='30px' src={shield} alt={'shield'}/>
-                    <br/>
-                    <AnimatedNumber
-                        style={{
-                            transition: '0.8s ease-out'
-                        }}
-                        stepPrecision={0}
-                        duration={this.prevState ? 1000 : 1}
-                        value={this.state.credits}
-                    />
-                    <img className={'credits-icon'} height='30px' width='22px' src={credits}
-                         alt={'credits'}/>
-                    <br/>
-                    <AnimatedNumber
-                        style={{
-                            transition: '0.8s ease-out'
-                        }}
-                        stepPrecision={0}
-                        duration={this.prevState ? 400 : 1}
-                        value={this.state.deaths}
-                    />
-                    <img height='30px' width='30px' src={death} alt={'death'}/>
+                    {[this.state.health, this.state.credits, this.state.deaths].map((stat, i) =>
+                        <React.Fragment key={i}>
+                            <AnimatedNumber
+                                style={{
+                                    transition: '0.8s ease-out'
+                                }}
+                                stepPrecision={0}
+                                duration={this.state.current_page > 0 ? 1000 : 1}
+                                value={stat}
+                            />
+                            <img className={i === 1 ? 'credits-icon' : ''} height='30px'
+                                 width='30px' src={icons[i]} alt={stat}/>
+                            <br/>
+                        </React.Fragment>
+                    )}
                 </div>
                 {this.state.current_page >= 0 &&
                 <Page

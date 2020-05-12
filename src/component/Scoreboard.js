@@ -84,7 +84,7 @@ export default class Scoreboard extends React.Component {
     render() {
         let titles = {
             16000: 'Outlawed Cosmonaut',
-            11000: 'Maurading Rocketeer',
+            11000: 'Marauding Rocketeer',
             6000: 'Burgling Pilot',
             1000: 'Pick Pocketing Star Gazer'
         };

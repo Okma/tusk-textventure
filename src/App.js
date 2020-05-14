@@ -9,6 +9,10 @@ import shield_icon from './img/shield.png';
 import credits_icon from './img/credits.png';
 import death_icon from './img/death.png';
 import './App.css';
+import coinSound from "./audio/coins.wav";
+import damageSound from "./audio/damage.wav";
+
+const Sound = require('react-sound').default;
 
 export default class App extends React.Component {
 
@@ -19,7 +23,9 @@ export default class App extends React.Component {
             current_page: 0,
             health: 100,
             credits: 0,
-            deaths: 0
+            deaths: 0,
+            soundSrc: null,
+            soundStatus: Sound.status.STOPPED
         }
     }
 
@@ -85,15 +91,18 @@ export default class App extends React.Component {
                 if (effects['credits'] != null) {
                     nextState['credits'] = {$set: this.state.credits + effects['credits']};
                     nextState['effect'] = {$set: 'credits'};
+                    nextState['soundSrc'] = {$set: coinSound};
+                    nextState['soundStatus'] = {$set: Sound.status.PLAYING};
                 }
 
                 // check for health change
                 if (effects['damage'] != null) {
                     nextState["health"] = {$set: this.state.health - effects['damage']};
                     nextState['effect'] = {$set: 'damage'};
+                    nextState['soundSrc'] = {$set: damageSound};
+                    nextState['soundStatus'] = {$set: Sound.status.PLAYING};
                 }
             }
-
             // assign next state
             this.setState(update(this.state, nextState));
         }
@@ -104,6 +113,15 @@ export default class App extends React.Component {
         return (
             <>
                 <Overlay current={this.state}/>
+                <Sound
+                    url={this.state.soundSrc}
+                    playStatus={this.state.soundStatus}
+                    volume={30}
+                    autoLoad={true}
+                    onFinishedPlaying={() => {
+                        this.setState(update(this.state, {$set: {soundStatus: Sound.status.STOPPED}}))
+                    }}
+                />
                 <div className={'container-fluid stats'}>
                     {[this.state.health, this.state.credits, this.state.deaths].map((stat, i) =>
                         <React.Fragment key={i}>

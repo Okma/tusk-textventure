@@ -1,6 +1,8 @@
 import React from "react";
 import './Scoreboard.css';
 import confetti from 'canvas-confetti';
+import victorySound from '../audio/victory.wav';
+const Sound = require('react-sound').default;
 
 export default class Scoreboard extends React.Component {
 
@@ -96,6 +98,12 @@ export default class Scoreboard extends React.Component {
         let target = keys.find((cutoff) => score >= cutoff);
         return (
             <>
+                <Sound
+                    url={victorySound}
+                    playStatus={Sound.status.PLAYING}
+                    volume={30}
+                    autoLoad={true}
+                />
                 <div className={'container'}>
                     <h2>Congratulations!</h2>
                     {/*<table className={'table'}>

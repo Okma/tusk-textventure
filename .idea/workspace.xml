@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb32044d-029c-4e3b-8f36-78db0549706b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/audio/coins.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/damage.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/option.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/victory.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Scoreboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Scoreboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +51,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/audio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,13 +66,14 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/audio" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/img" />
     </key>
   </component>
   <component name="RunManager">

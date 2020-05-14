@@ -34,14 +34,24 @@ export default class App extends React.Component {
     }
 
     onOptionSelect = (index) => {
-        // death
+        // death: reset to previous choice
         if (index === -1) {
-            // on death, go back to previous choice
             this.setState(update(this.state,
                 {
                     current_page: {$set: this.deathState.current_page},
                     health: {$set: this.deathState.health},
                     credits: {$set: this.deathState.credits}
+                }
+            ));
+            this.deathState = null;
+        }
+        // death: reset to beginning
+        else if (index === -3) {
+            this.setState(update(this.state,
+                {
+                    current_page: {$set: 2},
+                    health: {$set: 100},
+                    credits: {$set: 0}
                 }
             ));
             this.deathState = null;

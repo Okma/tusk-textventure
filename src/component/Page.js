@@ -32,16 +32,16 @@ export default class Page extends React.Component {
                            onMouseEnter={() => this.playOptionHoverSoundFx()}
                            onClick={() => this.onOptionSelect(option['target'])}>♦ {option['text']}</p>
                     )}
-                    <Sound
-                        url={optionSound}
-                        playStatus={this.state.soundStatus}
-                        volume={15}
-                        autoLoad={true}
-                        onFinishedPlaying={() => {
-                            this.setState({soundStatus: Sound.status.STOPPED})
-                        }}
-                    />
                 </div>
+                <Sound
+                    url={optionSound}
+                    playStatus={this.state.soundStatus}
+                    volume={15}
+                    autoLoad={true}
+                    onFinishedPlaying={() => {
+                        this.setState({soundStatus: Sound.status.STOPPED})
+                    }}
+                />
             </div>
         );
     }

@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb32044d-029c-4e3b-8f36-78db0549706b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/audio/coins.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/audio/damage.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/audio/option.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/audio/victory.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Scoreboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Scoreboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Scoreboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Scoreboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,10 +116,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="302" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1588271322972" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1589477263523">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1589482947068">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1589477263523" />
+    <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1589482947068" />
     <state x="535" y="150" width="839" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589202467977">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -141,10 +136,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="609" y="269" width="700" height="530" key="recent.locations.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588336414559" />
-    <state x="624" y="252" width="672" height="677" key="run.anything.popup" timestamp="1588329892708">
+    <state x="624" y="252" width="672" height="677" key="run.anything.popup" timestamp="1589482946050">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="624" y="252" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588329892708" />
+    <state x="624" y="252" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1589482946050" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588336338089">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

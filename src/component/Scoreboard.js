@@ -136,6 +136,9 @@ export default class Scoreboard extends React.Component {
                         <div className={'helper'}>Good job! You reached the highest possible
                             score!</div>
                     }
+                    <div className={'reset-parent'}>
+                        <p className={'reset'} onClick={() => this.props.onReset()}>♦ Click here to play again</p>
+                    </div>
                 </div>
             </>
         );

@@ -20,13 +20,13 @@ export default class App extends React.Component {
         super(props);
         this.state = {
             pages: data['pages'],
-            current_page: 0,
+            current_page: 31,
             health: 100,
             credits: 0,
             deaths: 0,
             soundSrc: null,
             soundStatus: Sound.status.STOPPED
-        }
+        };
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -108,6 +108,18 @@ export default class App extends React.Component {
         }
     };
 
+    onReset = () => {
+        this.setState({
+            pages: data['pages'],
+            current_page: 2,
+            health: 100,
+            credits: 0,
+            deaths: 0,
+            soundSrc: null,
+            soundStatus: Sound.status.STOPPED
+        });
+    };
+
     render() {
         const icons = [shield_icon, credits_icon, death_icon];
         return (
@@ -149,6 +161,7 @@ export default class App extends React.Component {
                     health={this.state.health}
                     credits={this.state.credits}
                     deaths={this.state.deaths}
+                    onReset={this.onReset}
                 />}
             </>
         );

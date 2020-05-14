@@ -1,6 +1,7 @@
 import React from "react";
 import './Page.css';
 import optionSound from '../audio/option.wav';
+
 const Sound = require('react-sound').default;
 
 export default class Page extends React.Component {
@@ -13,7 +14,7 @@ export default class Page extends React.Component {
         }
     }
 
-    playOptionHoverSoundFx = () => {
+    playOptionSoundFx = () => {
         this.setState({soundStatus: Sound.status.PLAYING})
     };
 
@@ -29,8 +30,10 @@ export default class Page extends React.Component {
                 <div className={'options'}>
                     {this.props.data['options'].map((option) =>
                         <p className={'option'} key={option['text']}
-                           onMouseEnter={() => this.playOptionHoverSoundFx()}
-                           onClick={() => this.onOptionSelect(option['target'])}>♦ {option['text']}</p>
+                           onClick={() => {
+                               this.onOptionSelect(option['target']);
+                               this.playOptionSoundFx()
+                           }}>♦ {option['text']}</p>
                     )}
                 </div>
                 <Sound

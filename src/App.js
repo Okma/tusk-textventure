@@ -20,7 +20,7 @@ export default class App extends React.Component {
         super(props);
         this.state = {
             pages: data['pages'],
-            current_page: 31,
+            current_page: 0,
             health: 100,
             credits: 0,
             deaths: 0,

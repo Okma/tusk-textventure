@@ -11,6 +11,7 @@ import death_icon from './img/death.png';
 import './App.css';
 import coinSound from "./audio/coins.wav";
 import damageSound from "./audio/damage.wav";
+import deathSound from "./audio/death.wav";
 
 const Sound = require('react-sound').default;
 
@@ -77,6 +78,8 @@ export default class App extends React.Component {
                 current_page: {$set: 32},
                 deaths: {$set: this.state.deaths + 1},
                 effect: {$set: null},
+                soundSrc: {$set: deathSound},
+                soundStatus: {$set: Sound.status.PLAYING}
             }));
         } else {
             // start constructing next state as appropriate

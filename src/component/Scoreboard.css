@@ -52,12 +52,12 @@ h2 {
     font-size: 2em;
 }
 
-.reset-parent {
+.btn-parent {
     margin-top: 5%;
     text-align: center;
 }
 
-.reset {
+.btn-child {
     font-size: 28px;
     cursor: pointer;
     color: white;
@@ -69,7 +69,7 @@ h2 {
     transition: 0.2s;
 }
 
-.reset:hover {
+.btn-child:hover {
     color: black;
     background-color: rgba(255, 255, 255, 1.0);
 }

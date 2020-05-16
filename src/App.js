@@ -4,11 +4,13 @@ import data from './data/data';
 import Page from "./component/Page";
 import Scoreboard from "./component/Scoreboard";
 import Overlay from "./component/Overlay";
+import Feedback from "./component/Feedback";
 import AnimatedNumber from 'react-animated-number';
 import shield_icon from './img/shield.png';
 import credits_icon from './img/credits.png';
 import death_icon from './img/death.png';
 import './App.css';
+import optionSound from './audio/option.wav'
 import coinSound from "./audio/coins.wav";
 import damageSound from "./audio/damage.wav";
 import deathSound from "./audio/death.wav";
@@ -47,7 +49,9 @@ export default class App extends React.Component {
                 {
                     current_page: {$set: this.deathState.current_page},
                     health: {$set: this.deathState.health},
-                    credits: {$set: this.deathState.credits}
+                    credits: {$set: this.deathState.credits},
+                    soundSrc: {$set: optionSound},
+                    soundStatus: {$set: Sound.status.PLAYING}
                 }
             ));
             this.deathState = null;
@@ -58,16 +62,19 @@ export default class App extends React.Component {
                 {
                     current_page: {$set: 2},
                     health: {$set: 100},
-                    credits: {$set: 0}
+                    credits: {$set: 0},
+                    soundSrc: {$set: optionSound},
+                    soundStatus: {$set: Sound.status.PLAYING}
                 }
             ));
             this.deathState = null;
         }
         // scoreboard
         else if (index === -2) {
+            // For mobile: do NOT play option sound here
             this.setState(update(this.state,
                 {
-                    current_page: {$set: -2},
+                    current_page: {$set: -2}
                 }
             ));
         }
@@ -84,7 +91,9 @@ export default class App extends React.Component {
         } else {
             // start constructing next state as appropriate
             let nextState = {
-                current_page: {$set: index}
+                current_page: {$set: index},
+                soundSrc: {$set: optionSound},
+                soundStatus: {$set: Sound.status.PLAYING}
             };
 
             let nextPageData = this.state.pages[index];
@@ -95,7 +104,6 @@ export default class App extends React.Component {
                     nextState['credits'] = {$set: this.state.credits + effects['credits']};
                     nextState['effect'] = {$set: 'credits'};
                     nextState['soundSrc'] = {$set: coinSound};
-                    nextState['soundStatus'] = {$set: Sound.status.PLAYING};
                 }
 
                 // check for health change
@@ -103,7 +111,6 @@ export default class App extends React.Component {
                     nextState["health"] = {$set: this.state.health - effects['damage']};
                     nextState['effect'] = {$set: 'damage'};
                     nextState['soundSrc'] = {$set: damageSound};
-                    nextState['soundStatus'] = {$set: Sound.status.PLAYING};
                 }
             }
             // assign next state
@@ -123,6 +130,16 @@ export default class App extends React.Component {
         });
     };
 
+    goToFeedback = () => {
+        this.setState(update(this.state,
+            {
+                current_page: {$set: -4},
+                soundSrc: optionSound,
+                soundStatus: Sound.status.PLAYING
+            }
+        ));
+    };
+
     render() {
         const icons = [shield_icon, credits_icon, death_icon];
         return (
@@ -133,9 +150,6 @@ export default class App extends React.Component {
                     playStatus={this.state.soundStatus}
                     volume={30}
                     autoLoad={true}
-                    onFinishedPlaying={() => {
-                        this.setState(update(this.state, {$set: {soundStatus: Sound.status.STOPPED}}))
-                    }}
                 />
                 <div className={'container-fluid stats'}>
                     {[this.state.health, this.state.credits, this.state.deaths].map((stat, i) =>
@@ -165,7 +179,10 @@ export default class App extends React.Component {
                     credits={this.state.credits}
                     deaths={this.state.deaths}
                     onReset={this.onReset}
+                    goToFeedback={this.goToFeedback}
                 />}
+                {this.state.current_page === -4 &&
+                <Feedback/>}
             </>
         );
     }
